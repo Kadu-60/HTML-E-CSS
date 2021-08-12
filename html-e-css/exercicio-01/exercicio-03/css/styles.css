@@ -1,0 +1,67 @@
+.bloco {
+    padding: 30px;
+    border: #ee2b2b solid 5px;
+    text-align: center;
+    background-color: #e9944e;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 0 #e48a04;
+    position: relative;
+}
+
+header, footer {
+    width: 960px;
+    margin: 20px auto;
+    font-family: 'Teko', sans-serif;
+}
+
+#links {
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+#conteudo {
+    width: 660px;
+    display: inline-block;
+    margin-left: none;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    vertical-align: top;
+    font-family: 'Teko', sans-serif;
+    text-align: left;
+}
+
+div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.hobbies {
+    position: relative;
+    text-align: left;
+}
+
+h1 {
+    background-color: rgba(77, 145, 83, 0.5);
+    color: rgb(71, 16, 102);
+}
+p {
+    background-color: rgba(0, 255, 255, 0.3);
+    color: rgb(151, 12, 8);
+    font-size: 22px;
+}
+
+body {
+    background-color: pink;
+}

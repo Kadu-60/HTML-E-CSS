@@ -1,0 +1,12 @@
+.erro {
+    color: red;
+    display: none;
+}
+
+.sucesso {
+    color: green;
+    display: none;
+}
+input:focus {
+    box-shadow: none;
+}

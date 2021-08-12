@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Formulário de Contato  </title>
+        <link rel="stylesheet" href="css/styles.css"/>
+
+    </head>
+    <body>
+        <h1>Formulário de contato</h1>
+        <form>
+            <label for="nomeId">Nome:</label>
+            <input type="text" name="nome" id="nomeId" placeholder="Digite seu nome" required/>
+            <br>
+            <br>
+            <label for="emailId">E-mail:</label>
+            <input type="email" name="email" id="emailId" placeholder="Digite seu email" required/>
+            
+
+            <h4>Assunto</h4>
+            <select name="assunto" required>
+                <option value="">--Selecione--</option>
+                <option value="sugestao">Seugestão</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="ajuda">Ajuda</option>
+            </select>
+
+            <h4>Gênero</h4>
+            <input type="radio" id="masculinoid" name="genero" value="Masculino"/>
+            <label for="masculinoid">Masculino</label>
+            <br>
+
+            <input type="radio" id="femininoid" name="genero" value="Feminino"/>
+            <label for="femininoid">Feminino</label>
+            <br>
+
+            <input type="radio" id="naorespndeid" name="genero" value="Prefiro não responder"/>
+            <label for="naorespndeid">Prefiro não responder</label>
+            <br>
+
+            <h4>Passatempos</h4>
+            <input type="checkbox" id="pescaid" name="passatempos" value="Pesca"/>
+            <label for="pescaid">Pesca</label>
+            <br>
+
+            <input type="checkbox" id="xadrezid" name="passatempos" value="Xadrez"/>
+            <label for="xadrezid">Xadrez</label>
+            <br>
+
+            <input type="checkbox" id="culinariaid" name="passatempos" value="Culinaria"/>
+            <label for="culinariaid">Culinaria</label>
+            <br>
+
+            <input type="checkbox" id="jogosid" name="passatempos" value="Jogos"/>
+            <label for="jogosid">Jogos</label>
+            <br>
+
+            <input type="checkbox" id="musicaid" name="passatempos" value="Musica"/>
+            <label for="musicaid">Musica</label>
+            <br>
+
+            <input type="checkbox" id="cinemaid" name="passatempos" value="Cinema"/>
+            <label for="cinemaid">Cinema</label>
+            <br>
+
+            <h4>Comentários</h4>
+            <textarea name="comentario"></textarea>
+            <br>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Excluir</button>
+            <br>
+
+        </form>
+
+    </body>
+</html>

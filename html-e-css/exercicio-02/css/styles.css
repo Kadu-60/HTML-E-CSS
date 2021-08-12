@@ -1,0 +1,16 @@
+input:focus {
+    background-color: #49c749;
+}
+
+textarea {
+    resize: vertical;
+    
+}
+
+textarea:focus {
+    background-color: #49c749;
+}
+
+button:hover {
+    background-color: #49c749;
+}

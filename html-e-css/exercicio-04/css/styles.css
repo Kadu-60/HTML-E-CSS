@@ -1,0 +1,58 @@
+header, .produto {
+    width: 960px;
+}
+
+body{
+    background-color: #b5edf7;
+}
+
+.container {
+    background-color: white;
+    width: 970px;
+    margin: 50px;
+    position: fixed;
+    
+}
+
+.botao {
+    position: absolute;
+    background-color: tomato;
+    bottom: 20px;
+    width: 80px;
+    height: 35px;
+    text-align: center;
+    left: 110px;
+}
+
+.produto {
+    margin: 10px;
+    position: relative;
+    width: 300px;
+    display: inline-block;
+}
+
+.nome-produto {
+    background-color: rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+    position: absolute;
+    top: 85px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+header {
+    background-color: #ff6600;
+    height: 80px;
+    text-align: left;
+    padding: 25px;
+    box-sizing: border-box;
+    color: white;
+    margin: 50px auto;
+    
+}
+h2 {
+    display: inline;
+    vertical-align: middle;
+    padding-right: 40px;
+}

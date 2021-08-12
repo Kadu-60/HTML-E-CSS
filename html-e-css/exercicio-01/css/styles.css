@@ -1,0 +1,47 @@
+body {
+    font-family: 'STIX Two Math', serif;
+    background-color:pink;
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+h2 {
+    color: #ca0707; 
+    font-weight: normal;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+}
+
+p {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: normal;
+    text-align: justify;
+}
+
+mark {
+    background-color: #6cb913;
+}
+
+
+
+.bloco{
+    width: 960px;
+    padding: 30px;
+    border: #482bee solid 5px;
+    background-color: #e9944e;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    color: #000000;
+    border-radius: 7px;
+    box-shadow: 0 1px 3px 0 #8e11f5;
+}

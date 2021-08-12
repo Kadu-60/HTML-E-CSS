@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel='stylesheet' href="./css/styles.css">
+
+    <title>Document</title>
+</head>
+<body>
+
+    
+
+    <div class="container">
+        <form id="form-aula" class="row" name="form-cadastro" action="https://www.google.com.br">
+
+                <div class="row">
+                    <div class="form-group col-md-7">
+                        <label for="inputNomeM" class="form-label">Nome do médico</label>
+                        <input type="text" class="form-control" id="inputNomeM" placeholder="Nome Sobrenome">
+                        <div class="erro-nomeM erro">Nome inválido</div>
+                        <div class="sucesso-nomeM sucesso">OK</div>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="campo2">CRM do médico</label>
+                        <input type="text" class="form-control" name="customer['cpf_cnpj']" id="inputcampo2" placeholder="000000">
+                        <div class="erro-crm erro">CRM inválido</div>
+                        <div class="sucesso-crm sucesso">OK</div>
+                    </div>
+                    
+                    <div class="form-group col-md-2">
+                        <label for="campo3">Data da receita</label>
+                        <input type="text" class="form-control" name="customer['birthdate']" id="inputcampo3" placeholder="DD/MM/AAAA">
+                        <div class="erro-datar erro">Data inválida</div>
+                        <div class="sucesso-datar sucesso">OK</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-7">
+                        <label for="inputNome" class="form-label">Nome do paciente</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Nome Sobrenome">
+                        <div class="erro-nome erro">Nome inválido</div>
+                        <div class="sucesso-nome sucesso">OK</div>
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="campo4">CNPJ / CPF</label>
+                        <input type="text" class="form-control" name="customer['cpf_cnpj']" id="inputcampo4" placeholder="XXX.XXX.XXX-XX">
+                        <div class="erro-cpf erro">CNPJ / CPF inválido</div>
+                        <div class="sucesso-cpf sucesso">OK</div>
+                    </div>
+                    
+                    <div class="form-group col-md-2">
+                        <label for="campo5">Data de Nascimento</label>
+                        <input type="text" class="form-control" name="customer['birthdate']" id="inputcampo5" placeholder="DD/MM/AAAA">
+                        <div class="erro-datan erro">Data inválida</div>
+                        <div class="sucesso-datan sucesso">OK</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="form-group col-md-2">
+                        <label for="campo6">Quantidade de caixas</label>
+                        <input type="text" class="form-control" name="customer['municipio']" id="inputcampo6" placeholder="00">
+                        <div class="erro-qtd erro">Quantidade inválida</div>
+                        <div class="sucesso-qtd sucesso">OK</div>
+                    </div>
+                    <div class="form-group col-2">
+                        <label for="campo7">Sexo</label>
+                        <select class="form-select select-custom" aria-label="Default select example">
+                            <option value="0">--</option>
+                            <option value="M">Masculino</option>
+                            <option value="F">Feminino</option>
+                            <option value="O">Outro</option>
+                            
+                            
+                        </select>
+                        <div class="erro-sexo erro">Selecione seu sexo</div>
+                        <div class="sucesso-sexo sucesso">OK</div>
+                    </div>
+                    
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-12 my-3">
+                        <button type="submit" class="btn btn-primary">Anexar arquivo</button>
+                        <button type="submit" class="btn btn-success">WhatsApp</button>
+                        <button type="submit" class="btn btn-info">E-mail</button>
+                    </div>
+                    
+            
+                </div>
+
+        </form>
+    </div>
+
+    
+
+
+    
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

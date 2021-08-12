@@ -1,0 +1,172 @@
+header {
+    color: white;
+    background-color: #131921;
+    font-size: 15px;
+}
+
+
+.logo-amazon:hover {
+    border: 1px solid white;
+}
+.logo-amazon {
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.endereco:hover {
+    border: 1px solid white;
+}
+
+.pedidos:hover {
+    border: 1px solid white;
+}
+
+
+.lgn-user:hover {
+    border: 1px solid white;
+}
+
+.btn-search {
+    background-color: orange;
+    
+}
+
+.lgn-user {
+    font-size: 14px;
+}
+
+.pedidos {
+    font-size: 14px;
+}
+
+.carrinho:hover {
+    border: 1px solid white;
+
+}
+
+.nav-link:hover {
+    border: 1px solid white;
+}
+
+.navbar {
+    background-color: #232f3e;
+    color: white;
+    font-size: 16px;
+    height: 45px;
+
+}
+
+.searchDiv form div input {
+    padding: 10px;
+    border-radius: 3px 0px 0px 3px;
+    height: 40px;
+    width: 100%;
+}
+.searchDiv form div button {
+    height: 40px;
+    border: 0;
+    width: 60px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+}
+.voltar-topo {
+    background-color: #37475a;
+    color: white;
+    padding: 15px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+ }
+ 
+ .endereco-footer {
+     background-color: #131a22;
+ }
+
+ ul {
+    list-style-type:none
+ }
+
+ .btn-todos {
+     background-color: #232f3e;
+     color: white;
+     text-decoration: none;
+     border: none;
+
+     
+ }
+
+ .btn-todos:hover {
+    border: 1px solid white;
+ }
+
+ .endereco-footer {
+     font-size: 14px;
+ }
+ .link-caixa {
+    color: black !important; 
+}
+
+.caixa {
+    
+    height: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+    margin: 10px;
+}
+
+.titulo-caixa {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px 20px 10px;
+}
+
+body {
+    background-color: lavender !important;
+}
+
+.echo-dot {
+    padding-top: 60px;
+}
+
+.echo-desc {
+    font-size: 15px;
+}
+.echo-preco {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+  }
+
+.responsive-img-lg {
+    width: 100%;
+    height: auto;
+    max-width: 260px;
+}
+
+  @media screen and (max-width: 376px) {
+    .produtos {
+      font-size: 10px;
+    }
+  }
+.links-lista {
+    padding-top: 15px;
+}

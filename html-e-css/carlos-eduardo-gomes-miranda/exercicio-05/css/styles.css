@@ -1,0 +1,42 @@
+.container {
+    background-color: rgb(63, 121, 245);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: black solid 5px;
+    padding: 25px;
+    
+}
+
+.user{
+    display: flex;
+    background-color: white;
+    width: 330px;
+    height: 100px;
+    border: rgba(128, 128, 128, 0.2) solid 1px;
+    padding: 15px;
+    box-sizing: border-box;
+    justify-content: left;
+    
+}
+.descricao {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 15px;
+}
+
+.nome {
+    font-size: 20px;
+
+}
+
+.endereco {
+    color: gray;
+    padding: 5px;
+}
+
+
+
+

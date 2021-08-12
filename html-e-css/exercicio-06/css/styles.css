@@ -1,0 +1,55 @@
+header {
+    background-color: #131921;
+}
+
+.endereco {
+    color: white;
+    font-size: 15px;
+}
+
+.endereco:hover {
+    border: 1px solid white;
+}
+
+.logoamz {
+    background-image: url(/html-e-css/exercicio-06/images/amazon-logo.png);
+    background-size: 120px;
+    background-repeat: no-repeat;
+    
+
+}
+
+.logoamz:hover {
+    border: 1px solid white;
+}
+
+#dropdownMenuButton1{
+    background-color: #131921;
+    border: transparent;
+}
+
+#dropdownMenuButton1:hover {
+    border: 1px solid white;
+}
+
+.searchDiv form div input {
+    padding: 10px;
+    border-radius: 3px 0px 0px 3px;
+    height: 100%;
+}
+.searchDiv form div button {
+    height: 100%;
+    border: 0;
+    width: 60px;
+    border-radius: 0px 3px 3px 0px;
+}
+
+
+
+.btn-search {
+    background-color: orange;
+}
+
+.pedidos {
+    color: white;
+}
